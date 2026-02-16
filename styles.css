@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    color: #ff4757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#story-container {
+    text-align: center;
+}
+
+button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff8787;
+}
+
+#love-meter-container {
+    margin-top: 20px;
+}
